@@ -10,6 +10,8 @@ body {
   font-family: 'Lora', 'Times New Roman', serif;
 }
 
+
+
 p {
   line-height: 1.5;
   margin: 30px 0;
@@ -47,6 +49,48 @@ blockquote {
   font-size: 36px;
   font-weight: 700;
   margin-top: 60px;
+}
+
+.word-cloud {
+  width: 300px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  text-align: justify;
+}
+
+.word-cloud__word {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 24px;
+  color: #90d6f3;
+}
+
+.word-cloud__word--x-small,
+.word-cloud__word--small {
+  font-weight: 100;
+}
+
+.word-cloud__word--x-small {
+  font-size: 10px;
+  color: #c6e8f7;
+}
+
+.word-cloud__word--small {
+  font-size: 13px;
+  color: #b0def2;
+}
+
+.word-cloud__word--large {
+  font-size: 22px;
+  color: #0fa0dd;
+}
+
+.word-cloud__word--x-large {
+  font-size: 32px;
+  letter-spacing: -0.0125em;
+  color: #0a79a7;
 }
 
 .caption {
